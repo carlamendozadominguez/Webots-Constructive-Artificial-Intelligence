@@ -1,0 +1,238 @@
+#VRML_SIM V8.6 utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.49348369 -0.69951446 -0.51686881 4.3310867
+  position 0.66354263 2.279791 -0.0031931151
+}
+Background {
+  skyColor [
+    0.4 0.7 1
+  ]
+}
+E-puck {
+  hidden linearVelocity_0 0.023093 2.08043e-06 -0.0581928
+  hidden angularVelocity_0 0.0128607 0.00112012 0.0048759
+  hidden translation_1 -0.026075769 0.020001223 5.4615758e-6
+  hidden rotation_1 0.99998622 0.0022671326 -0.0047345392 -1.7368677
+  hidden linearVelocity_1 0.0236253 3.93349e-06 -0.0579271
+  hidden angularVelocity_1 -2.89512 -0.0179552 -1.18122
+  hidden translation_2 0.026075764 0.020001133 -5.4788081e-6
+  hidden rotation_2 1 -1.9256779e-6 -3.5001409e-7 1.8657825
+  hidden linearVelocity_2 0.0225119 2.90091e-07 -0.0583298
+  hidden angularVelocity_2 -2.91658 0.00110898 -1.1256
+  translation -0.063943683 -6.3667069e-5 -0.061951945
+  rotation 0.00022040707 0.99999998 3.1187593e-5 -0.36826198
+  controller "new_controller"
+  name "new_controller"
+  groundSensorsSlot [
+    GPS {
+    }
+    LightSensor {
+    }
+    E-puckDistanceSensor {
+    }
+    E-puckGroundSensors {
+    }
+  ]
+}
+PointLight {
+  location 0 0.3 0
+}
+DirectionalLight {
+  ambientIntensity 0.2
+  direction 0.1 -0.5 0.3
+}
+RectangleArena {
+  floorTextureUrl [
+    "textures/obstaculo.png"
+  ]
+  floorTileSize 1 1
+  wallTileSize 1 1
+}
+OilBarrel {
+  translation -0.17 0.05 -0.136
+  height 0.1
+  radius 0.035
+}
+OilBarrel {
+  translation 0.165 0.05 0.22
+  height 0.1
+  radius 0.035
+}
+Solid {
+  translation -0.04 0.049997712 -0.2
+  rotation 7.0247278e-7 1 -9.466735e-6 -0.1995189
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 1 0
+        }
+      }
+      geometry Box {
+        size 0.03 0.1 0.03
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.03 0.1 0.03
+  }
+  physics Physics {
+    density 200
+  }
+}
+Solid {
+  translation -0.35 0.049997712 -0.2
+  rotation 7.0247278e-7 1 -9.466735e-6 -0.1995189
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 1 0
+        }
+      }
+      geometry Box {
+        size 0.03 0.1 0.03
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.03 0.1 0.03
+  }
+  physics Physics {
+    density 200
+  }
+}
+Solid {
+  translation -0.35 0.049997712 0.3
+  rotation 7.0247278e-7 1 -9.466735e-6 -0.1995189
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 1 0
+        }
+      }
+      geometry Box {
+        size 0.03 0.1 0.03
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.03 0.1 0.03
+  }
+  physics Physics {
+    density 200
+  }
+}
+Solid {
+  translation 0.05 0.049997712 0.3
+  rotation 7.0247278e-7 1 -9.466735e-6 -0.1995189
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 1 0
+        }
+      }
+      geometry Box {
+        size 0.03 0.1 0.03
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.03 0.1 0.03
+  }
+  physics Physics {
+    density 200
+  }
+}
+Solid {
+  translation 0.4 0.049997712 0.4
+  rotation 7.0247278e-7 1 -9.466735e-6 -0.1995189
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 1 0
+        }
+      }
+      geometry Box {
+        size 0.03 0.1 0.03
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.03 0.1 0.03
+  }
+  physics Physics {
+    density 200
+  }
+}
+Solid {
+  translation -0.25 0.049997712 0.1
+  rotation 7.0247278e-7 1 -9.466735e-6 -0.1995189
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 1 0
+        }
+      }
+      geometry Box {
+        size 0.03 0.1 0.03
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.03 0.1 0.03
+  }
+  physics Physics {
+    density 200
+  }
+}
+Solid {
+  translation 0.03 0.049997712 0
+  rotation 7.0247278e-7 1 -9.466735e-6 -0.1995189
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 1 0
+        }
+      }
+      geometry Box {
+        size 0.03 0.1 0.03
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.03 0.1 0.03
+  }
+  physics Physics {
+    density 200
+  }
+}
+Solid {
+  translation 0.25 0.049997712 0
+  rotation 7.0247278e-7 1 -9.466735e-6 -0.1995189
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 1 0
+        }
+      }
+      geometry Box {
+        size 0.03 0.1 0.03
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.03 0.1 0.03
+  }
+  physics Physics {
+    density 200
+  }
+}
